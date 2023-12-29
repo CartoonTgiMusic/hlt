@@ -92,7 +92,7 @@ body {
   .prev-track,
   .next-track {
   padding: 20px;
-  opacity: 0.8;
+  opacity: 1;
   transition: opacity .2s;
   }
   
@@ -101,7 +101,8 @@ body {
   .playpause-track:hover,
   .prev-track:hover,
   .next-track:hover {
-  opacity: 1.0;
+  opacity: 1;
+  transform: scale(1.2);
   }
   
   .slider_container {
@@ -166,6 +167,9 @@ body {
   }
   .randomActive{
       color:rgb(244, 64, 64);
+  }
+  .loopActive{
+    color: red;
   }
   .rotate {
       animation: rotation 8s infinite linear;
