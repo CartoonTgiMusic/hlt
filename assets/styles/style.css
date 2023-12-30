@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(6, 255, 6);
   background-color: rgb(85, 67, 67);
+  text-shadow: 3px 0px 3px rgb(0, 0, 0, 1);
   }
   
   .player{
@@ -34,6 +35,11 @@ body {
     color: rgb(6, 255, 6);
     margin:0px 15px;
   }
+  .fa-house:hover,
+  .fa-list:hover{
+    transform: scale(1.2);
+  }
+
   
   .details {
   display: flex;
@@ -63,7 +69,7 @@ body {
 
   .track-name {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
   }
   
   .track-artist {
@@ -82,10 +88,7 @@ body {
   align-items: center;
   margin-bottom: 10px;
   }
-  .active{
-      color: rgb(0, 0, 0);
-  }
-  
+
   .repeat-track,
   .random-track,
   .playpause-track,
@@ -161,8 +164,7 @@ body {
   i.fa-play-circle,
   i.fa-pause-circle,
   i.fa-step-forward,
-  i.fa-step-backward,
-  p {
+  i.fa-step-backward{
   cursor: pointer;
   }
   .randomActive{
