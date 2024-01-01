@@ -24,10 +24,11 @@ body {
     justify-content: center;
   }
     
-  .home{
+  .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   a{
