@@ -31,7 +31,7 @@ const music_list = [
     },
     {
         img : 'assets/images/hlhimgs/cover2.jpg',
-        name : 'သင်ꩻလွဥ်ချာခမ်းမွိုင်',
+        name : 'သဲင်ꩻလွဥ်ချာခမ်းမွိုင်',
         artist : 'ခွန်ခွန်ကျော်ဦး',
         writer :'တဲမ်း-ခွန်ပဒဲကော',
         music : 'assets/musics/hlhaudios/music2.mp3'
