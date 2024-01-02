@@ -4,17 +4,21 @@ body {
   color: rgb(6, 255, 6);
   background-color: rgb(85, 67, 67);
   text-shadow: 3px 0px 3px rgb(0, 0, 0, 1);
+  width: 100%;
+  margin: auto;
   }
   
   .player{
-    height: 85vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    width: 95%;
+    margin: auto;
 }
   .wrapper{
-    width: 90%;
+    margin-top: 10px;
+    width: 100%;
     border: 1px solid transparent;
     border-radius: 20px;
     background-color: rgb(85, 67, 67);
@@ -53,8 +57,8 @@ body {
   
   .track-art {
   margin: 10px;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   border:2px solid 	rgb(6, 255, 6);
   background-size: cover;
   background-position: center;
@@ -85,7 +89,6 @@ body {
   }
   
   .buttons {
-  font-size: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -101,7 +104,7 @@ body {
   padding:  20px;
   opacity: 1;
   transition: opacity .2s;
-  font-size: .8rem;
+  font-size: .7rem;
   }
   
   .repeat-track:hover,
