@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <script src="https://kit.fontawesome.com/a062562745.js" crossorigin="anonymous"></script>
@@ -13,12 +14,14 @@ body{
   background-color: #2d2d2d;
   color: #ffc266;
   font-family: 'Roboto', sans-serif;
+  margin: a;
 }
 .container{
   position: fixed;
   width: 100%;
   margin: auto;
   background-color: #2d2d2d;
+  justify-content: center;
   
 }
 .header{
@@ -28,8 +31,12 @@ body{
   margin: auto;
   align-items: center;
 }
+.fa-house:hover,
+.fa-close:hover{
+  transform: scale(1.2);
+}
 #myProgress {
-  width: 420px;
+  width: 80%;
    background-color: #d9d9f2; 
   cursor: pointer;
   border-radius: 10px;
@@ -50,7 +57,7 @@ body{
 .btn-action{
   cursor: pointer;
   padding-top: 10px;
-  width: 30px;
+  justify-content: space-between;
 }
 
 .btn-ctn, .infos-ctn{
@@ -64,18 +71,19 @@ padding-top: 10px;
 }
 
 .btn-ctn > div {
- padding: 5px;
+ padding-left: 20px;
+ padding-right: 20px;
  margin-top: 10px;
  margin-bottom: 10px;
 }
 
 .infos-ctn > div {
- margin-bottom: 8px;
+ margin-bottom: 10px;
  color: #ffc266;
 }
 
 .first-btn{
-  margin-left: 3px;
+  margin-left: 0px;
 }
 
 .duration{
@@ -84,23 +92,24 @@ padding-top: 10px;
 
 .title{
   margin-left: 10px;
-  width: 210px;
+  width: 67%;
   text-align: center;
 }
 
 .player-ctn{
   border-radius: 15px;
-  width: 100%;
-  padding: 10px;
+  width: 90%;
+  padding: 20px;
   background-color: #373737;
   margin:auto;
   margin-top: 10px;
+  justify-content: center;
 }
 
 .playlist-track-ctn{
   display: flex;
   background-color: #464646;
-  margin-top: 3px;
+  margin-top: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -109,22 +118,22 @@ padding-top: 10px;
 }
 
 .playlist-track-ctn > div{
-  margin:5px;
+  margin:10px;
 }
 .playlist-info-track{
-  width: 80%;
+  width: 50%;
 }
 .playlist-info-track,.playlist-duration{
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   color: #e9cc95;
-  font-size: 14px;
+  font-size: 1rem;
   pointer-events: none;
 }
 .playlist-ctn{
    padding-bottom: 10px;
+   margin-top: 220px;
 
-   margin-top: 190px;
 }
 .active-track{
   background: #4d4d4d;
@@ -140,12 +149,12 @@ padding-top: 10px;
 
 .playlist-btn-play{
   pointer-events: none;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .fas{
   color: #ffc266;
-  font-size: 14px;
+  font-size: 1.5rem;
 }
   </style>
   <body>
@@ -159,7 +168,7 @@ padding-top: 10px;
       <div class="header">
         <div class="home"><a href="https://cartoontgimusic.github.io/homepage"><i class="fas fa-house"></i></a></div>
         <h2>ထောင်လွေꩻထဲင်း</h2>
-        <div class="home"><a href="index.html"><i class="fas fa-bars"></i></a></div>
+        <div class="home"><a href="index.html"><i class="fas fa-close"></i></a></div>
       </div>
 
 
