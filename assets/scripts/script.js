@@ -58,7 +58,7 @@ const music_list = [
         music : 'assets/musics/hlhaudios/music5.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover6.jpg',
+        img : 'assets/images/hlhimgs/logo.png',
         name : 'ဆွိုးခန်းမွိုင်',
         artist : 'ကာတွန်းစွိုꩻ',
         writer :'တဲမ်း-ခွန်တကီးတဘဲ',
