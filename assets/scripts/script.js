@@ -23,35 +23,35 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'assets/images/hlhimgs/cover1.jpg',
+        img : 'assets/images/hlhimgs/cover5.jpg',
         name : 'အွဥ်ႏဖိင်ꩻတꩻလꩻတဝ်း',
         artist : 'ခွန်ပဒဲကော',
         writer :'တဲမ်း-ခွန်ပဒဲကော',
         music : 'assets/musics/hlhaudios/music1.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover2.jpg',
+        img : 'assets/images/hlhimgs/cover1.jpg',
         name : 'သဲင်ꩻလွဥ်ချာခမ်းမွိုင်',
         artist : 'ခွန်ခွန်ကျော်ဦး',
         writer :'တဲမ်း-ခွန်ပဒဲကော',
         music : 'assets/musics/hlhaudios/music2.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover3.jpg',
+        img : 'assets/images/hlhimgs/cover8.jpg',
         name : 'ထွူလဲဥ်း',
         artist : 'ခွန်ကျော်စိုး',
         writer :'တဲမ်း-ခွန်ကျော်စိုး',
         music : 'assets/musics/hlhaudios/music3.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover4.jpg',
+        img : 'assets/images/hlhimgs/logo.png',
         name : 'ခံႏလွို့အသွုမ်',
         artist : 'ခွန်အောင်သိုက်',
         writer :'တဲမ်း-ခွန်အောင်သိုက်',
         music : 'assets/musics/hlhaudios/music4.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover5.jpg',
+        img : 'assets/images/hlhimgs/logo.png',
         name : 'ထောင်လွေꩻထဲင်း',
         artist : 'ခွန်တကီးတဘဲ',
         writer :'တဲမ်း-ခွန်တကီးတဘဲ',
@@ -65,7 +65,7 @@ const music_list = [
         music : 'assets/musics/hlhaudios/music6.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover7.jpg',
+        img : 'assets/images/hlhimgs/cover5.jpg',
         name : 'ယူးတွမ်ႏညော်ႏ',
         artist : 'ခွန်ပဒဲကော',
         writer :'တဲမ်း-ခွန်ပဒဲကော',
@@ -79,28 +79,28 @@ const music_list = [
         music : 'assets/musics/hlhaudios/music8.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover9.jpg',
+        img : 'assets/images/hlhimgs/logo.png',
         name : 'အွဥ်ႏဖိင်ꩻ',
         artist : 'ခွန်အောင်သိုက်',
         writer :'တဲမ်း-ခွန်အောင်သိုက်',
         music : 'assets/musics/hlhaudios/music9.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover10.jpg',
+        img : 'assets/images/hlhimgs/cover1.jpg',
         name : 'နီမွိုးပနမ်',
         artist : 'ခွန်ခွန်ကျော်ဦး',
         writer :'တဲမ်း-ခွန်ခွန်ကျော်ဦး',
         music : 'assets/musics/hlhaudios/music10.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover11.jpg',
+        img : 'assets/images/hlhimgs/logo.png',
         name : 'အတ္တ',
         artist : 'ခွန်တကီးတဘဲ',
         writer :'တဲမ်း-ခွန်တကီးတဘဲ',
         music : 'assets/musics/hlhaudios/music11.mp3'
     },
     {
-        img : 'assets/images/hlhimgs/cover12.jpg',
+        img : 'assets/images/hlhimgs/cover1.jpg',
         name : 'လောကတရာꩻ',
         artist : 'ခွန်ခွန်ကျော်ဦး',
         writer :'တဲမ်း-ခွန်ကျော်ခမ်း',
